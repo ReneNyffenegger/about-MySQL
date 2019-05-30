@@ -1,6 +1,5 @@
 --  set MYSQL_PWD=iAmRoot
--- "%programfiles%\MySQL\MySQL Server 8.0\bin\mysql.exe" -u root -piAmRoot < create-db.sql
--- "%programfiles%\MySQL\MySQL Server 8.0\bin\mysql.exe" -u root           < create-db.sql
+-- "%programfiles%\MySQL\MySQL Server 8.0\bin\mysql.exe" -u root < create-db.sql
 
 drop   database if exists fk_tests;
 
